@@ -3,6 +3,16 @@
 
 $(document).ready(function() {
 
+  // Show/Hide Rules buttons
+  $("#hide-rules").click(function(){
+    $("p, ol").hide();
+  });
+
+  $("#show-rules").click(function(){
+    $("p, ol").show();
+  });
+
+
   // Step 1 - Moving blocks
   var $dataStack = $('[data-stack]');
   var $block = null;

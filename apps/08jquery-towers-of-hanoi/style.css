@@ -1,3 +1,52 @@
+body {
+  background-color: #A1AEC6;
+}
+
+.header h2 {
+  font-size: 54px;
+  text-align: center;
+  margin: 30px 0px 0px 0px;
+  color: #33354F;
+}
+
+.header h3 {
+  font-size: 30px;
+  text-align: center;
+  margin: 10px 0px;
+  color: #33354F;
+}
+
+.buttons {
+  text-align: center;
+  font-size: 20px;
+}
+
+#show-rules, #hide-rules {
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 10%;
+  background-color: #EF476F;
+  color: #ffffff;
+  border: 2px solid #EF476F;
+  margin: 10px;
+}
+
+#show-rules:hover, #hide-rules:hover {
+  background-color: #ffffff;
+  color: #EF476F;
+  cursor: pointer;
+}
+
+p, ol {
+  width: 60%;
+  margin: auto;
+  padding-top: 15px;
+}
+
+ol {
+  width: 50%;
+}
+
 [data-stack] {
   display: flex;
   justify-content: left;
@@ -5,8 +54,10 @@
   -webkit-align-items: center;
   display: -webkit-flex;
   height: 101px;
-  background-color: aliceblue;
+  background-color: #ffffff;
   margin: 25px;
+  width: 65%;
+  margin-left: 225px;
 }
 
 [data-block] {
@@ -16,25 +67,26 @@
 
 [data-block="25"] {
   height: 25px;
-  background-color: blue;
+  background-color: #EF476F;
 }
 
 [data-block="50"] {
   height: 50px;
-  background-color: green;
+  background-color: #2E5EAA;
 }
 
 [data-block="75"] {
   height: 75px;
-  background-color: red;
+  background-color: #06BEE1;
 }
 
 [data-block="100"] {
   height: 100px;
-  background-color: yellow;
+  background-color: #03256C;
 }
 
 #announce-game-won {
   font-size: 50px;
   text-align: center;
+  color: #EF476F;
 }
